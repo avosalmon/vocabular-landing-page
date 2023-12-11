@@ -9,9 +9,10 @@ import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
+import Logo from "@/components/Logo";
 
 const navigation = [
-  { name: "Express", href: "express" },
+  { name: "Translate", href: "Translate" },
   { name: "Lookup", href: "#lookup" },
   { name: "Correct Me", href: "#correct-me" },
   { name: "Compare", href: "#compare" },
@@ -30,12 +31,8 @@ export default function Home() {
         >
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
+              <span className="sr-only">Vocabular</span>
+              <Logo className="h-6 w-auto" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -78,12 +75,8 @@ export default function Home() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
+                <span className="sr-only">Vocabular</span>
+                <Logo className="h-6 w-auto" />
               </a>
               <button
                 type="button"
@@ -134,14 +127,14 @@ export default function Home() {
             }}
           />
         </div>
-        <div className="py-24 sm:py-32 lg:pb-40">
+        <div className="pt-16 sm:pt-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Master Language with a Context-Aware Assistant
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl sm:leading-snug">
+                All-in-one app to build your vocabulary
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Contextuary is the next-generation language tool that transforms
+                Vocabular is the next-generation language tool that transforms
                 how you understand, learn, and communicate in different
                 languages. Say goodbye to awkward translations and embrace the
                 future of language assistance, powered by context and tone.
@@ -156,17 +149,6 @@ export default function Home() {
                 <p className="mx-auto mt-6 max-w-xl text-sm leading-8 text-gray-500">
                   No credit card required
                 </p>
-              </div>
-            </div>
-            <div className="mt-16 flow-root sm:mt-24">
-              <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
-                <img
-                  src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
-                  alt="App screenshot"
-                  width={2432}
-                  height={1442}
-                  className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
-                />
               </div>
             </div>
           </div>
@@ -195,7 +177,7 @@ export default function Home() {
             Experience the Difference
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-            Join the growing community of users who trust Contextuary for all
+            Join the growing community of users who trust Vocabular for all
             their language needs. Unleash your full linguistic potential and
             communicate with confidence across any situation.
           </p>

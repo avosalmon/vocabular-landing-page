@@ -1,7 +1,7 @@
 const faqs = [
   {
     id: 1,
-    question: "What is Contextuary?",
+    question: "What is Vocabular?",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
@@ -41,7 +41,7 @@ export default function FAQ() {
         <p className="mt-6 max-w-2xl text-base leading-7 text-gray-600">
           If you have any questions, please{" "}
           <a
-            href="mailto:support@contextuary.ai"
+            href="mailto:support@vocabular.ai"
             className="font-semibold text-indigo-600 hover:text-indigo-500"
           >
             reach out to us

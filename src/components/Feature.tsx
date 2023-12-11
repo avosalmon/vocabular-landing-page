@@ -7,7 +7,7 @@ import {
 
 const features = [
   {
-    name: "Express",
+    name: "Translate",
     description:
       "Translate words and phrases while considering the situation and tone, ensuring clarity and precision. Receive various translation variations, each with an explanation, pronunciation, and example phrase.",
     icon: LockClosedIcon,
