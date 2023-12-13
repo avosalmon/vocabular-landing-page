@@ -5,13 +5,13 @@ const features = [
   {
     name: "How do you say this?",
     description:
-      "Say goodbye to useless translations that don't fit the context and tone of your message. Vocabular translates words and phrases while considering the situation, tone, and audience, ensuring clarity and precision. Receive various translation variations, each with an explanation, pronunciation, and example phrase.",
+      "Say goodbye to awkward translations that don't fit the context and tone of your message. Vocabular translates words and phrases while considering the situation, tone, and audience, ensuring your message is delivered accurately. Each translation comes with an explanation, pronunciation, and example sentences.",
     icon: LanguageIcon,
   },
   {
     name: "What does this mean?",
     description:
-      "Discover the meaning of words and phrases, taking into account the context they are used in. Get accurate meanings, pronunciations, tone, and helpful images, along with multiple example phrases for reinforcement.",
+      "Discover the meaning of words and phrases, taking into account the context they are used in. Get accurate meanings, pronunciations, tone, and visual explanations, along with multiple example phrases for reinforcement.",
     icon: SearchCheck,
   },
   {
@@ -23,7 +23,7 @@ const features = [
   {
     name: "Does this sound natural?",
     description:
-      "Get assistance with your writing in various use cases, from personal to professional. Ensure your message is tailored to your audience, while maintaining the appropriate context and tone.",
+      "Get feedback on your writing and learn how to sound more natural. Vocabular provides feedback on how to improve your language use, ensuring your message is tailored to your audience, while maintaining the appropriate context and tone.",
     icon: Wand,
   },
 ];
