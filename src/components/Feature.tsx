@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { LanguageIcon } from "@heroicons/react/24/outline";
 import { SearchCheck, Ungroup, Wand } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 const features = [
   {
@@ -44,13 +45,15 @@ const features = [
 export default function Feature() {
   return (
     <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto flex max-w-7xl flex-col gap-20 px-6 lg:px-8">
-        {features.map((feature) => (
+      <div className="mx-auto flex max-w-7xl flex-col gap-y-32 px-6 lg:px-8">
+        {features.map((feature, index) => (
           <div
             key={feature.name}
             className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
           >
-            <div className="lg:pr-8 lg:pt-4">
+            <div
+              className={cn("lg:pt-4", index % 2 === 0 ? "lg:pr-8" : "lg:pl-8")}
+            >
               <div className="lg:max-w-lg">
                 <h2 className="text-base font-semibold leading-7 text-indigo-600">
                   {feature.caption}
@@ -69,13 +72,20 @@ export default function Feature() {
                 </p>
               </div>
             </div>
-            <img
-              src={feature.screenshot}
-              alt={feature.name}
-              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-              width={2432}
-              height={1442}
-            />
+            <div
+              className={cn(
+                "flex items-start",
+                index % 2 !== 0 && "justify-end lg:order-first",
+              )}
+            >
+              <img
+                src={feature.screenshot}
+                alt={feature.name}
+                className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+                width={2432}
+                height={1442}
+              />
+            </div>
           </div>
         ))}
       </div>
