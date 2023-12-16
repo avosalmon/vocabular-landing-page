@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 
 const features = [
   {
+    id: "translate",
     name: "How do you say this?",
     caption: "Translate",
     description:
@@ -14,6 +15,7 @@ const features = [
       "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
   },
   {
+    id: "lookup",
     name: "What does this mean?",
     caption: "Lookup",
     description:
@@ -23,6 +25,7 @@ const features = [
       "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
   },
   {
+    id: "compare",
     name: "What's the difference?",
     caption: "Compare",
     description:
@@ -32,6 +35,7 @@ const features = [
       "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
   },
   {
+    id: "feedback",
     name: "Does this sound natural?",
     caption: "Get feedback",
     description:
@@ -48,7 +52,8 @@ export default function Feature() {
       <div className="mx-auto flex max-w-7xl flex-col gap-y-32 px-6 lg:px-8">
         {features.map((feature, index) => (
           <div
-            key={feature.name}
+            id={feature.id}
+            key={feature.id}
             className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
           >
             <div

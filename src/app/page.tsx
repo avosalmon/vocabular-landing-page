@@ -12,11 +12,11 @@ import Link from "next/link";
 import Logo from "@/components/Logo";
 
 const navigation = [
-  { name: "Translate", href: "Translate" },
+  { name: "Translate", href: "#translate" },
   { name: "Lookup", href: "#lookup" },
-  { name: "Correct Me", href: "#correct-me" },
   { name: "Compare", href: "#compare" },
-  { name: "Pricing", href: "#pricing" },
+  { name: "Get feedback", href: "#feedback" },
+  // { name: "Pricing", href: "#pricing" },
 ];
 
 export default function Home() {
