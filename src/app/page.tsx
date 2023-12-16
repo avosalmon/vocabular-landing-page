@@ -134,10 +134,10 @@ export default function Home() {
                 All-in-one app to build your vocabulary
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Vocabular is the next-generation language tool that transforms
-                how you understand, learn, and communicate in different
-                languages. Say goodbye to awkward translations and embrace the
-                future of language assistance, powered by context and tone.
+                Supercharge your vocabulary on your language learning journey
+                with our advanced AI technology. Vocabular transforms how you
+                understand, learn, and communicate in different languages. We
+                support over 80 languages, opening up a world of possibilities..
               </p>
               <div className="mt-12">
                 <Link
