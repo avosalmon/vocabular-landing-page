@@ -144,7 +144,7 @@ export default function Home() {
                 Supercharge your vocabulary on your language learning journey
                 with our advanced AI technology. Vocabular transforms how you
                 understand, learn, and communicate in different languages. We
-                support over 80 languages, opening up a world of possibilities..
+                support over 80 languages.
               </p>
               <div className="mt-12">
                 <Link
