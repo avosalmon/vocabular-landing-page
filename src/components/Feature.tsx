@@ -9,7 +9,7 @@ const features = [
     name: "How do you say this?",
     caption: "Translate",
     description:
-      "Say goodbye to awkward translations that don't fit the context and tone of your message. Vocabular translates words and phrases while considering the situation, tone, and audience, ensuring your message is delivered accurately. Each translation comes with an explanation, pronunciation, and example sentences.",
+      "Say goodbye to awkward translations that don't fit the context and tone of your message. Vocabular translates words and phrases while considering the situation, tone, and audience, ensuring your message is delivered accurately. Each translation comes with an explanation, pronunciation, and example sentences, aiding you to understand and memorize it better.",
     icon: LanguageIcon,
     screenshot:
       "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
@@ -19,7 +19,7 @@ const features = [
     name: "What does this mean?",
     caption: "Lookup",
     description:
-      "Discover the meaning of words and phrases, taking into account the context they are used in. Get accurate meanings, pronunciations, tone, and visual explanations, along with multiple example phrases for reinforcement.",
+      "Understanding language is more than knowing a word's definition. We dive deeper to give you a comprehensive understanding of any word, phrase, or sentence, taking into account its context. Plus, to facilitate better comprehension and retention, we provide pronunciations and example sentences, along with visual explanations.",
     icon: SearchCheck,
     screenshot:
       "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
