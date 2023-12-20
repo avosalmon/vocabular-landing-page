@@ -3,32 +3,32 @@ const faqs = [
     id: 1,
     question: "What is Vocabular?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Vocabular is an all-in-one platform to build your vocabulary. You can translate, lookup, compare words and phrases, and get feedback on your writing. We use AI to provide you with the most accurate and natural expressions, definitions, and feedback. You can save the answers to your pesonal dictionary and review them later.",
   },
   {
     id: 2,
     question: "Does it work with all languages?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We support over 80 languages. If you don’t see your language, please reach out to us.",
   },
   {
     id: 3,
     question: "Is it 100% accurate?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We use the AI technology to provide you with the most accurate and natural expressions, definitions, and feedback. However, it’s not 100% accurate. If you see any mistakes, please reach out to us.",
   },
   {
     id: 4,
-    question: "Do you train your AI model with my code?",
+    question: "Do you train your AI model with the questions I ask?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "No, we don’t. We use OpenAI's API which doesn't use prompts to train the AI model.",
   },
-  {
-    id: 5,
-    question: "How do I cancel my subscription?",
-    answer:
-      "Log into the dashboard and click on the “Cancel Subscription” button. You can also change your plan or downgrade to the free version.",
-  },
+  // {
+  //   id: 5,
+  //   question: "How do I cancel my subscription?",
+  //   answer:
+  //     "Log into the dashboard and click on the “Cancel Subscription” button. You can also change your plan or downgrade to the free version.",
+  // },
 ];
 
 export default function FAQ() {
