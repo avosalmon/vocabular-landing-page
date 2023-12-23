@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 const features = [
   {
     id: "translate",
-    name: "How do you say this?",
+    name: "Translate with context and tone",
     caption: "Translate",
     description:
       "Say goodbye to awkward translations that don't fit the context and tone of your message. Vocabular translates words and phrases while considering the situation, tone, and audience, ensuring your message is delivered accurately. Each translation comes with an explanation, pronunciation, and example sentences, aiding you to understand and memorize it better.",
@@ -16,7 +16,7 @@ const features = [
   },
   {
     id: "lookup",
-    name: "What does this mean?",
+    name: "Discover the contextual meaning",
     caption: "Lookup",
     description:
       "Understanding language is more than knowing a word's definition. We dive deeper to give you a comprehensive understanding of any word, phrase, or sentence, taking into account its context. Plus, to facilitate better comprehension and retention, we provide pronunciations and example sentences, along with visual explanations.",
@@ -25,22 +25,22 @@ const features = [
       "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
   },
   {
-    id: "compare",
-    name: "What's the difference?",
-    caption: "Compare",
-    description:
-      "Understand the subtle differences between similar words or phrases, empowering you to choose the right expression. Learn the nuances and make informed decisions in your language use.",
-    icon: Ungroup,
-    screenshot:
-      "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
-  },
-  {
     id: "feedback",
-    name: "Does this sound natural?",
+    name: "Get feedback on your writing",
     caption: "Get feedback",
     description:
       "Get feedback on your writing and learn how to sound more natural. Vocabular provides feedback on how to improve your language use, ensuring your message is tailored to your audience, while maintaining the appropriate context and tone.",
     icon: Wand,
+    screenshot:
+      "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
+  },
+  {
+    id: "compare",
+    name: "Learn subtle differences",
+    caption: "Compare",
+    description:
+      "Understand the subtle differences between similar words or phrases, empowering you to choose the right expression. Learn the nuances and make informed decisions in your language use.",
+    icon: Ungroup,
     screenshot:
       "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
   },
@@ -60,17 +60,17 @@ export default function Feature() {
               className={cn("lg:pt-4", index % 2 === 0 ? "lg:pr-8" : "lg:pl-8")}
             >
               <div className="lg:max-w-lg">
-                <h2 className="text-base font-semibold leading-7 text-indigo-600">
-                  {feature.caption}
-                </h2>
-                <p className="mt-2 flex items-center gap-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <h2 className="flex items-center gap-2 text-base font-semibold leading-7 text-indigo-600">
                   <span className="inline-block rounded-md bg-indigo-600 p-2">
                     <feature.icon
-                      className="h-6 w-6 text-white"
+                      className="h-4 w-4 text-white"
                       aria-hidden="true"
                     />
                   </span>
-                  <span>{feature.name}</span>
+                  {feature.caption}
+                </h2>
+                <p className="mt-4 flex items-center gap-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                  {feature.name}
                 </p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   {feature.description}
