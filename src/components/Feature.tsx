@@ -11,8 +11,7 @@ const features = [
     description:
       "Say goodbye to awkward translations that don't fit the context and tone of your message. Vocabular translates words and phrases while considering the situation, tone, and audience, ensuring your message is delivered accurately. Each translation comes with an explanation, pronunciation, and example sentences, aiding you to understand and memorize it better.",
     icon: LanguageIcon,
-    screenshot:
-      "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
+    screenshot: "translate.mp4",
   },
   {
     id: "lookup",
@@ -21,8 +20,7 @@ const features = [
     description:
       "Understanding language is more than knowing a word's definition. We dive deeper to give you a comprehensive understanding of any word, phrase, or sentence, taking into account its context. Plus, to facilitate better comprehension and retention, we provide pronunciations and example sentences, along with visual explanations.",
     icon: SearchCheck,
-    screenshot:
-      "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
+    screenshot: "translate.mp4",
   },
   {
     id: "feedback",
@@ -31,8 +29,7 @@ const features = [
     description:
       "Get feedback on your writing and learn how to sound more natural. Vocabular provides feedback on how to improve your language use, ensuring your message is tailored to your audience, while maintaining the appropriate context and tone.",
     icon: Wand,
-    screenshot:
-      "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
+    screenshot: "translate.mp4",
   },
   {
     id: "compare",
@@ -41,15 +38,14 @@ const features = [
     description:
       "Understand the subtle differences between similar words or phrases, empowering you to choose the right expression. Learn the nuances and make informed decisions in your language use.",
     icon: Ungroup,
-    screenshot:
-      "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png",
+    screenshot: "translate.mp4",
   },
 ];
 
 export default function Feature() {
   return (
     <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto flex max-w-7xl flex-col gap-y-32 px-6 lg:px-8">
+      <div className="mx-auto flex max-w-7xl flex-col gap-y-56 px-6 lg:px-8">
         {features.map((feature, index) => (
           <div
             id={feature.id}
@@ -83,13 +79,15 @@ export default function Feature() {
                 index % 2 !== 0 && "justify-end lg:order-first",
               )}
             >
-              <img
-                src={feature.screenshot}
-                alt={feature.name}
+              <video
                 className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-                width={2432}
-                height={1442}
-              />
+                autoPlay
+                loop
+                playsInline
+                muted
+              >
+                <source src={`assets/${feature.screenshot}`} type="video/mp4" />
+              </video>
             </div>
           </div>
         ))}
