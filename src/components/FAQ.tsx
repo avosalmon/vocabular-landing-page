@@ -3,7 +3,7 @@ const faqs = [
     id: 1,
     question: "What is Vocabular?",
     answer:
-      "Vocabular is an all-in-one platform to build your vocabulary. You can translate, lookup, compare words and phrases, and get feedback on your writing. We use AI to provide you with the most accurate and natural expressions, definitions, and feedback. You can save the answers to your pesonal dictionary and review them later.",
+      "Vocabular is an all-in-one platform to build your vocabulary. You can translate, lookup, compare words and phrases, and get feedback on your writing. Our context-aware AI assistant provides you with the most accurate and natural expressions, definitions, and feedback. You can save the answers to your pesonal dictionary and review them later.",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const faqs = [
     id: 3,
     question: "Is it 100% accurate?",
     answer:
-      "We use the AI technology to provide you with the most accurate and natural expressions, definitions, and feedback. However, it’s not 100% accurate. If you see any mistakes, please reach out to us.",
+      "We use the AI technology to provide you with the most accurate and natural expressions, definitions, and feedback. However, it’s not 100% accurate. If you see any unnatural expressions, please rephrase your question or reach out to us.",
   },
   {
     id: 4,
