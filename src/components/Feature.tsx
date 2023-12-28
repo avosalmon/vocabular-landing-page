@@ -25,7 +25,7 @@ const features = [
   {
     id: "feedback",
     name: "Refine your writing",
-    caption: "Write better",
+    caption: "Write Better",
     description:
       "Get feedback on your writing and learn how to sound more natural. Vocabular provides feedback on how to improve your language use, ensuring your message is tailored to your audience, while maintaining the appropriate context and tone.",
     icon: Wand,
