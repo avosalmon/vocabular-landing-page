@@ -45,17 +45,17 @@ const features = [
 export default function Feature() {
   return (
     <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto flex max-w-7xl flex-col gap-y-56 px-6 lg:px-8">
+      <div className="mx-auto flex max-w-7xl flex-col gap-32 px-6 sm:gap-y-56 xl:px-8">
         {features.map((feature, index) => (
           <div
             id={feature.id}
             key={feature.id}
-            className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+            className="mx-auto grid max-w-3xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 xl:mx-0 xl:max-w-none xl:grid-cols-2"
           >
             <div
-              className={cn("lg:pt-4", index % 2 === 0 ? "lg:pr-8" : "lg:pl-8")}
+              className={cn("xl:pt-4", index % 2 === 0 ? "xl:pr-8" : "xl:pl-8")}
             >
-              <div className="lg:max-w-lg">
+              <div className="xl:max-w-lg">
                 <h2 className="flex items-center gap-2 text-base font-semibold leading-7 text-indigo-600">
                   <span className="inline-block rounded-md bg-indigo-600 p-2">
                     <feature.icon
@@ -76,11 +76,11 @@ export default function Feature() {
             <div
               className={cn(
                 "flex items-start",
-                index % 2 !== 0 && "justify-end lg:order-first",
+                index % 2 !== 0 && "justify-end xl:order-first",
               )}
             >
               <video
-                className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+                className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 xl:-ml-0"
                 autoPlay
                 loop
                 playsInline
