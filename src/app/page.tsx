@@ -20,7 +20,7 @@ const navigation = [
   // { name: "Pricing", href: "#pricing" },
 ];
 
-const loginUrl = "https://go.vocabular.ai/login";
+const signupUrl = "https://go.vocabular.ai/register";
 
 export default function Home() {
   const router = useRouter();
@@ -34,7 +34,7 @@ export default function Home() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="./" className="-m-1.5 p-1.5">
               <span className="sr-only">Vocabular</span>
               <Logo className="h-6 w-auto" />
             </a>
@@ -62,10 +62,10 @@ export default function Home() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <Link
-              href={loginUrl}
+              href={signupUrl}
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              Log in <span aria-hidden="true">&rarr;</span>
+              Sign up <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>
         </nav>
@@ -111,10 +111,10 @@ export default function Home() {
                 </div>
                 <div className="py-6">
                   <Link
-                    href={loginUrl}
+                    href={signupUrl}
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Log in
+                    Sign up
                   </Link>
                 </div>
               </div>
@@ -143,14 +143,18 @@ export default function Home() {
                 All-in-one app to build your vocabulary
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Supercharge your vocabulary on your language learning journey
-                with our advanced AI technology. Vocabular transforms how you
-                understand, learn, and communicate in different languages. We
-                support over 80 languages.
+                Supercharge your vocabulary and speak with confidence on your
+                language learning journey with our context-aware AI assistant.
+              </p>
+              <p className="mt-4">
+                <span className="align-middle text-3xl font-bold">80+ </span>
+                <span className="align-middle text-lg leading-8 text-gray-600">
+                  languages supported.
+                </span>
               </p>
               <div className="mt-12">
                 <Link
-                  href="#"
+                  href={signupUrl}
                   className="rounded-md bg-indigo-600 px-6 py-4 text-xl text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get Started for Free
