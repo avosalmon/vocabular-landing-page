@@ -52,26 +52,22 @@ export default function Feature() {
             key={feature.id}
             className="mx-auto grid max-w-3xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 xl:mx-0 xl:max-w-none xl:grid-cols-2"
           >
-            <div
-              className={cn("xl:pt-4", index % 2 === 0 ? "xl:pr-8" : "xl:pl-8")}
-            >
-              <div className="xl:max-w-lg">
-                <h2 className="flex items-center gap-2 text-base font-semibold leading-7 text-indigo-600">
-                  <span className="inline-block rounded-md bg-indigo-600 p-2">
-                    <feature.icon
-                      className="h-4 w-4 text-white"
-                      aria-hidden="true"
-                    />
-                  </span>
-                  {feature.caption}
-                </h2>
-                <p className="mt-4 flex items-center gap-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                  {feature.name}
-                </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  {feature.description}
-                </p>
-              </div>
+            <div className="xl:max-w-lg xl:pt-4">
+              <h2 className="flex items-center gap-2 text-base font-semibold leading-7 text-indigo-600">
+                <span className="inline-block rounded-md bg-indigo-600 p-2">
+                  <feature.icon
+                    className="h-4 w-4 text-white"
+                    aria-hidden="true"
+                  />
+                </span>
+                {feature.caption}
+              </h2>
+              <p className="mt-4 flex items-center gap-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                {feature.name}
+              </p>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                {feature.description}
+              </p>
             </div>
             <div
               className={cn(
@@ -82,7 +78,7 @@ export default function Feature() {
               <img
                 src={`assets/${feature.screenshot}`}
                 alt={feature.name}
-                className="rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[52rem] md:-ml-4 xl:-ml-0 xl:max-w-none"
+                className="rounded-xl xl:w-[44rem] xl:max-w-none 2xl:w-[54rem]"
                 width={2432}
                 height={1442}
               />
