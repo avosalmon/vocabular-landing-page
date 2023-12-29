@@ -38,7 +38,7 @@ const features = [
     description:
       "Understand the subtle differences between similar words or phrases, empowering you to choose the right expression. Learn the nuances and make informed decisions in your language use.",
     icon: Ungroup,
-    screenshot: "translate.png",
+    screenshot: "compare.png",
   },
 ];
 
