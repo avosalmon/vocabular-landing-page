@@ -82,7 +82,7 @@ export default function Feature() {
               <img
                 src={`assets/${feature.screenshot}`}
                 alt={feature.name}
-                className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 xl:-ml-0"
+                className="rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[52rem] md:-ml-4 xl:-ml-0 xl:max-w-none"
                 width={2432}
                 height={1442}
               />
