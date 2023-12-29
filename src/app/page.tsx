@@ -15,7 +15,7 @@ import Logo from "@/components/Logo";
 const navigation = [
   { name: "Translate", href: "#translate" },
   { name: "Lookup", href: "#lookup" },
-  { name: "Write Better", href: "#feedback" },
+  { name: "Write Better", href: "#write-better" },
   { name: "Compare", href: "#compare" },
   // { name: "Pricing", href: "#pricing" },
 ];

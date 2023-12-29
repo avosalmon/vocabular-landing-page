@@ -23,13 +23,13 @@ const features = [
     screenshot: "lookup.png",
   },
   {
-    id: "feedback",
+    id: "write-better",
     name: "Refine your writing",
     caption: "Write Better",
     description:
       "Get feedback on your writing and learn how to sound more natural. Vocabular provides feedback on how to improve your language use, ensuring your message is tailored to your audience, while maintaining the appropriate context and tone.",
     icon: Wand,
-    screenshot: "translate.png",
+    screenshot: "write-better.png",
   },
   {
     id: "compare",
