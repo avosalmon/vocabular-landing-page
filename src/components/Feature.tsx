@@ -20,7 +20,7 @@ const features = [
     description:
       "Understanding language is more than knowing a word's definition. We dive deeper to give you a comprehensive understanding of any word, phrase, or sentence, taking into account its context. Plus, to facilitate better comprehension and retention, we provide pronunciations and example sentences, along with visual explanations.",
     icon: SearchCheck,
-    screenshot: "translate.png",
+    screenshot: "lookup.png",
   },
   {
     id: "feedback",
@@ -44,7 +44,7 @@ const features = [
 
 export default function Feature() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-20 sm:py-32">
       <div className="mx-auto flex max-w-7xl flex-col gap-32 px-6 sm:gap-y-56 xl:px-8">
         {features.map((feature, index) => (
           <div
