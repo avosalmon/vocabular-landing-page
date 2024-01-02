@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Dialog } from "@headlessui/react";
@@ -17,7 +16,6 @@ const navigation = [
   { name: "Lookup", href: "#lookup" },
   { name: "Write Better", href: "#write-better" },
   { name: "Compare", href: "#compare" },
-  // { name: "Pricing", href: "#pricing" },
 ];
 
 const signupUrl = "https://go.vocabular.ai/register";
@@ -181,6 +179,18 @@ export default function Home() {
       </div>
 
       <Feature />
+
+      <div className="mx-auto text-center">
+        <Link
+          href={signupUrl}
+          className="rounded-md bg-indigo-600 px-6 py-4 text-xl text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        >
+          Get Started for Free
+        </Link>
+        <p className="mx-auto mt-6 max-w-xl text-sm leading-8 text-gray-500">
+          No credit card required
+        </p>
+      </div>
 
       {/* <Pricing /> */}
 
