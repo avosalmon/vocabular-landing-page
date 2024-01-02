@@ -3,7 +3,7 @@ const faqs = [
     id: 1,
     question: "What is Vocabular?",
     answer:
-      "Vocabular is an all-in-one platform to build your vocabulary. You can translate, lookup, compare words and phrases, and get feedback on your writing. Our context-aware AI assistant provides you with the most accurate and natural expressions, definitions, and feedback. You can save the answers to your pesonal dictionary and review them later.",
+      "Vocabular is an all-in-one platform to boost your vocabulary. You can translate, lookup, compare words and phrases, and get feedback on your writing. Our context-aware AI assistant provides you with the most accurate and natural expressions, definitions, and feedback. You can save the answers to your pesonal dictionary and review them later.",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <div className="bg-white">
+    <div id="faq" className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
         <h2 className="text-4xl font-bold leading-10 tracking-tight text-gray-900">
           Frequently asked questions

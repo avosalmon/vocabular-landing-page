@@ -44,7 +44,7 @@ const features = [
 
 export default function Feature() {
   return (
-    <div className="bg-white py-20 sm:py-32">
+    <div id="features" className="bg-white py-20 sm:py-32">
       <div className="mx-auto flex max-w-7xl flex-col gap-32 px-6 sm:gap-y-56 xl:px-8">
         {features.map((feature, index) => (
           <div

@@ -2,9 +2,9 @@ import { SVGAttributes } from "react";
 
 const navigation = {
   main: [
-    { name: "About", href: "/about" },
-    { name: "Pricing", href: "/pricing" },
-    { name: "FAQ", href: "/faq" },
+    { name: "Features", href: "/#features" },
+    // { name: "Pricing", href: "/#pricing" },
+    { name: "FAQ", href: "/#faq" },
     { name: "Privacy Policy", href: "/privacy-policy" },
     { name: "Terms & Conditions", href: "/terms-and-conditions" },
   ],
@@ -79,7 +79,7 @@ export default function Footer() {
             </div>
           ))}
         </nav>
-        <div className="mt-10 flex justify-center space-x-10">
+        {/* <div className="mt-10 flex justify-center space-x-10">
           {navigation.social.map((item) => (
             <a
               key={item.name}
@@ -90,7 +90,7 @@ export default function Footer() {
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
           ))}
-        </div>
+        </div> */}
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
           &copy; {new Date().getFullYear()} Vocabular. All rights reserved.
         </p>
