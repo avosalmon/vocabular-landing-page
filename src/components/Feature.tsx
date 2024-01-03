@@ -75,7 +75,7 @@ export default function Feature() {
             </div>
             <div
               className={cn(
-                "flex items-start",
+                "-mx-6 flex items-start sm:mx-0",
                 index % 2 !== 0 && "justify-end xl:order-first",
               )}
             >
