@@ -22,7 +22,7 @@ const features = [
       "Understanding language is more than knowing a word's definition. We dive deeper to give you a comprehensive understanding of any word, phrase, or sentence, taking into account its context. Plus, to facilitate better comprehension and retention, we provide pronunciations and example sentences, along with visual explanations.",
     icon: SearchCheck,
     screenshot: "lookup.png",
-    mobile_screenshot: "translate-mobile.png",
+    mobile_screenshot: "lookup-mobile.png",
   },
   {
     id: "write-better",
@@ -32,7 +32,7 @@ const features = [
       "Get feedback on your writing and learn how to sound more natural. Vocabular provides feedback on how to improve your language use, ensuring your message is tailored to your audience, while maintaining the appropriate context and tone.",
     icon: Wand,
     screenshot: "write-better.png",
-    mobile_screenshot: "translate-mobile.png",
+    mobile_screenshot: "write-better-mobile.png",
   },
   {
     id: "compare",
@@ -42,7 +42,7 @@ const features = [
       "Understand the subtle differences between similar words or phrases, empowering you to choose the right expression. Learn the nuances and make informed decisions in your language use.",
     icon: Ungroup,
     screenshot: "compare.png",
-    mobile_screenshot: "translate-mobile.png",
+    mobile_screenshot: "compare-mobile.png",
   },
 ];
 
