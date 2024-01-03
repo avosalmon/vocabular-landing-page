@@ -5,8 +5,8 @@ const navigation = {
     { name: "Features", href: "/#features" },
     // { name: "Pricing", href: "/#pricing" },
     { name: "FAQ", href: "/#faq" },
-    { name: "Privacy Policy", href: "/privacy-policy" },
-    { name: "Terms & Conditions", href: "/terms-and-conditions" },
+    { name: "Privacy Policy", href: "#" },
+    { name: "Terms & Conditions", href: "#" },
   ],
   social: [
     {
