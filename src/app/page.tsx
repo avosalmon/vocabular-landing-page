@@ -141,8 +141,8 @@ export default function Home() {
                 All-in-one app to build your vocabulary
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Supercharge your vocabulary and speak with confidence on your
-                language learning journey with our context-aware AI assistant.
+                Supercharge your vocabulary and create your own personalized
+                dictionary with our context-aware AI assistant.
               </p>
               <p className="mt-4">
                 <span className="align-middle text-3xl font-bold">80+ </span>
