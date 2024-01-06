@@ -138,7 +138,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl sm:leading-snug">
-                All-in-one app to build your vocabulary
+                All-in-one app to boost your vocabulary
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Supercharge your vocabulary and create your own personalized
