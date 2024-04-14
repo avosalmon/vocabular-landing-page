@@ -9,7 +9,7 @@ const faqs = [
     id: 2,
     question: "Does it work with all languages?",
     answer:
-      "We support over 80 languages. If you don’t see your language, please reach out to us.",
+      "We support over 40 languages. If you don’t see your language, please reach out to us.",
   },
   {
     id: 3,

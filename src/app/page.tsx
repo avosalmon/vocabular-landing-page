@@ -145,7 +145,7 @@ export default function Home() {
                 dictionary with our context-aware AI assistant.
               </p>
               <p className="mt-4">
-                <span className="align-middle text-3xl font-bold">80+ </span>
+                <span className="align-middle text-3xl font-bold">40+ </span>
                 <span className="align-middle text-lg leading-8 text-gray-600">
                   languages supported.
                 </span>
