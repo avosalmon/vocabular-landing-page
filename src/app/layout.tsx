@@ -11,6 +11,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Vocabular",
   description: "All-in-one app to build your vocabulary with the power of AI",
+  keywords: [
+    "vocabulary",
+    "language learning",
+    "AI",
+    "dictionary",
+    "flashcards",
+  ],
 };
 
 export default function RootLayout({
