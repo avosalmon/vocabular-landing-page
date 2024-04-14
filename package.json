@@ -11,6 +11,10 @@
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.1",
+    "@types/mdx": "^2.0.13",
     "clsx": "^2.0.0",
     "lucide-react": "^0.294.0",
     "next": "14.0.4",
