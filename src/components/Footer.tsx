@@ -6,7 +6,7 @@ const navigation = {
     // { name: "Pricing", href: "/#pricing" },
     { name: "FAQ", href: "/#faq" },
     { name: "Privacy Policy", href: "/privacy-policy" },
-    { name: "Terms & Service", href: "/terms" },
+    { name: "Terms", href: "/terms" },
   ],
   social: [
     {
