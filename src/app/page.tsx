@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import FAQ from "@/components/FAQ";
 import Link from "next/link";
 import Logo from "@/components/Logo";
+import Head from "next/head";
 
 const navigation = [
   { name: "Translate", href: "#translate" },
@@ -26,6 +27,14 @@ export default function Home() {
 
   return (
     <div className="bg-white">
+      <Head>
+        <link
+          rel="canonical"
+          href="https://www.vocabular.ai/"
+          key="canonical"
+        />
+      </Head>
+
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
