@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+import { cn } from "@/lib/utils";
 import { LanguageIcon } from "@heroicons/react/24/outline";
 import { SearchCheck, Ungroup, Wand } from "lucide-react";
-import { cn } from "@/lib/utils";
 
 const features = [
   {
