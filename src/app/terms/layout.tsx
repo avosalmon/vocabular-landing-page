@@ -1,15 +1,14 @@
-import Head from "next/head";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/terms",
+  },
+};
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="px-4 py-10">
-      <Head>
-        <link
-          rel="canonical"
-          href="https://www.vocabular.ai/terms"
-          key="canonical"
-        />
-      </Head>
       <article className="prose">{children}</article>
     </div>
   );

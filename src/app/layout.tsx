@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     "dictionary",
     "flashcards",
   ],
+  metadataBase: new URL("https://www.vocabular.ai"),
 };
 
 export default function RootLayout({
